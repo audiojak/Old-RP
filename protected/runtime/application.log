@@ -1,0 +1,1270 @@
+2012/05/29 11:09:58 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dance_yii.{{user}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{user}}`.
+in /Users/john/Sites/web/dance_yii/protected/modules/user/models/YumUser.php (49)
+in /Users/john/Sites/web/dance_yii/protected/modules/user/components/YumWebUser.php (12)
+in /Users/john/Sites/web/dance_yii/protected/modules/user/components/YumWebUser.php (153)
+2012/05/29 11:09:58 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{user}}" for active record class "YumUser" cannot be found in the database.' in /Users/john/Sites/web/yii/framework/db/ar/CActiveRecord.php:2264
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(YumUser))
+#1 /Users/john/Sites/web/dance_yii/protected/modules/user/models/YumUser.php(49): CActiveRecord::model('YumUser')
+#2 /Users/john/Sites/web/dance_yii/protected/modules/user/components/YumWebUser.php(12): YumUser::model()
+#3 /Users/john/Sites/web/dance_yii/protected/modules/user/components/YumWebUser.php(153): YumWebUser->data()
+#4 /Users/john/Sites/web/dance_yii/protected/modules/user/UserModule.php(239): YumWebUser->isAdmin()
+#5 /Users/john/Sites/web/yii/framework/web/CController.php(264): UserModule->beforeControllerAction(Object(YumUserController), Object(CInlineAction))
+#6 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(276): CController->run('')
+#7 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('user/login')
+#8 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/user/login
+HTTP_REFERER=http://dance.yii.local:8888/user/install/install
+---
+2012/05/29 11:09:58 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dance_yii.{{user}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{user}}`.
+in /Users/john/Sites/web/dance_yii/protected/modules/user/models/YumUser.php (49)
+in /Users/john/Sites/web/dance_yii/protected/modules/user/components/YumWebUser.php (12)
+in /Users/john/Sites/web/dance_yii/protected/modules/user/components/YumWebUser.php (153)
+2012/05/29 11:09:58 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{user}}" for active record class "YumUser" cannot be found in the database.' in /Users/john/Sites/web/yii/framework/db/ar/CActiveRecord.php:2264
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(YumUser))
+#1 /Users/john/Sites/web/dance_yii/protected/modules/user/models/YumUser.php(49): CActiveRecord::model('YumUser')
+#2 /Users/john/Sites/web/dance_yii/protected/modules/user/components/YumWebUser.php(12): YumUser::model()
+#3 /Users/john/Sites/web/dance_yii/protected/modules/user/components/YumWebUser.php(153): YumWebUser->data()
+#4 /Users/john/Sites/web/dance_yii/protected/modules/user/UserModule.php(239): YumWebUser->isAdmin()
+#5 /Users/john/Sites/web/yii/framework/web/CController.php(264): UserModule->beforeControllerAction(Object(YumUserController), Object(CInlineAction))
+#6 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(276): CController->run('')
+#7 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('user/login')
+#8 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/user/login
+HTTP_REFERER=http://dance.yii.local:8888/user/install/install
+---
+2012/05/29 11:10:27 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dance_yii.{{user}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{user}}`.
+in /Users/john/Sites/web/dance_yii/protected/modules/user/models/YumUser.php (49)
+in /Users/john/Sites/web/dance_yii/protected/modules/user/components/YumWebUser.php (12)
+in /Users/john/Sites/web/dance_yii/protected/modules/user/components/YumWebUser.php (153)
+2012/05/29 11:10:27 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{user}}" for active record class "YumUser" cannot be found in the database.' in /Users/john/Sites/web/yii/framework/db/ar/CActiveRecord.php:2264
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(YumUser))
+#1 /Users/john/Sites/web/dance_yii/protected/modules/user/models/YumUser.php(49): CActiveRecord::model('YumUser')
+#2 /Users/john/Sites/web/dance_yii/protected/modules/user/components/YumWebUser.php(12): YumUser::model()
+#3 /Users/john/Sites/web/dance_yii/protected/modules/user/components/YumWebUser.php(153): YumWebUser->data()
+#4 /Users/john/Sites/web/dance_yii/protected/modules/user/UserModule.php(239): YumWebUser->isAdmin()
+#5 /Users/john/Sites/web/yii/framework/web/CController.php(264): UserModule->beforeControllerAction(Object(YumUserController), Object(CInlineAction))
+#6 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(276): CController->run('')
+#7 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('user/login')
+#8 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/user/login
+HTTP_REFERER=http://dance.yii.local:8888/user/install/install
+---
+2012/05/29 11:10:28 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dance_yii.{{user}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{user}}`.
+in /Users/john/Sites/web/dance_yii/protected/modules/user/models/YumUser.php (49)
+in /Users/john/Sites/web/dance_yii/protected/modules/user/components/YumWebUser.php (12)
+in /Users/john/Sites/web/dance_yii/protected/modules/user/components/YumWebUser.php (153)
+2012/05/29 11:10:28 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{user}}" for active record class "YumUser" cannot be found in the database.' in /Users/john/Sites/web/yii/framework/db/ar/CActiveRecord.php:2264
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(YumUser))
+#1 /Users/john/Sites/web/dance_yii/protected/modules/user/models/YumUser.php(49): CActiveRecord::model('YumUser')
+#2 /Users/john/Sites/web/dance_yii/protected/modules/user/components/YumWebUser.php(12): YumUser::model()
+#3 /Users/john/Sites/web/dance_yii/protected/modules/user/components/YumWebUser.php(153): YumWebUser->data()
+#4 /Users/john/Sites/web/dance_yii/protected/modules/user/UserModule.php(239): YumWebUser->isAdmin()
+#5 /Users/john/Sites/web/yii/framework/web/CController.php(264): UserModule->beforeControllerAction(Object(YumUserController), Object(CInlineAction))
+#6 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(276): CController->run('')
+#7 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('user/login')
+#8 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/user/login
+HTTP_REFERER=http://dance.yii.local:8888/user/install/install
+---
+2012/05/29 11:10:48 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dance_yii.{{user}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{user}}`.
+in /Users/john/Sites/web/dance_yii/protected/modules/user/models/YumUser.php (49)
+in /Users/john/Sites/web/dance_yii/protected/modules/user/components/YumWebUser.php (12)
+in /Users/john/Sites/web/dance_yii/protected/modules/user/components/YumWebUser.php (153)
+2012/05/29 11:10:48 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{user}}" for active record class "YumUser" cannot be found in the database.' in /Users/john/Sites/web/yii/framework/db/ar/CActiveRecord.php:2264
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(YumUser))
+#1 /Users/john/Sites/web/dance_yii/protected/modules/user/models/YumUser.php(49): CActiveRecord::model('YumUser')
+#2 /Users/john/Sites/web/dance_yii/protected/modules/user/components/YumWebUser.php(12): YumUser::model()
+#3 /Users/john/Sites/web/dance_yii/protected/modules/user/components/YumWebUser.php(153): YumWebUser->data()
+#4 /Users/john/Sites/web/dance_yii/protected/modules/user/UserModule.php(239): YumWebUser->isAdmin()
+#5 /Users/john/Sites/web/yii/framework/web/CController.php(264): UserModule->beforeControllerAction(Object(YumInstallController), Object(CInlineAction))
+#6 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(276): CController->run('install')
+#7 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('user/install/in...')
+#8 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/user/install/install
+HTTP_REFERER=http://dance.yii.local:8888/user/install
+---
+2012/05/29 11:13:48 [error] [exception.CException] exception 'CException' with message 'User management module is not in Debug Mode' in /Users/john/Sites/web/dance_yii/protected/modules/user/controllers/YumInstallController.php:459
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/web/actions/CInlineAction.php(50): YumInstallController->actionInstall()
+#1 /Users/john/Sites/web/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#2 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 /Users/john/Sites/web/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#4 /Users/john/Sites/web/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#5 /Users/john/Sites/web/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 /Users/john/Sites/web/yii/framework/web/CController.php(292): CFilterChain->run()
+#8 /Users/john/Sites/web/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(276): CController->run('')
+#10 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('user/install')
+#11 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/user/install
+---
+2012/05/29 11:21:20 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'username'. The SQL statement executed was: INSERT INTO `user` (`lastaction`) VALUES (:yp0).
+in /Users/john/Sites/web/dance_yii/protected/modules/user/models/YumUser.php (84)
+in /Users/john/Sites/web/dance_yii/protected/modules/user/controllers/YumController.php (24)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/05/29 11:21:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'username'. The SQL statement executed was: INSERT INTO `user` (`lastaction`) VALUES (:yp0)' in /Users/john/Sites/web/yii/framework/db/CDbCommand.php:354
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/db/ar/CActiveRecord.php(1014): CDbCommand->execute()
+#1 /Users/john/Sites/web/yii/framework/db/ar/CActiveRecord.php(787): CActiveRecord->insert(Array)
+#2 /Users/john/Sites/web/dance_yii/protected/modules/user/models/YumUser.php(84): CActiveRecord->save(false, Array)
+#3 /Users/john/Sites/web/dance_yii/protected/modules/user/controllers/YumController.php(24): YumUser->setLastAction()
+#4 /Users/john/Sites/web/yii/framework/web/CController.php(307): YumController->beforeAction(Object(CInlineAction))
+#5 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /Users/john/Sites/web/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /Users/john/Sites/web/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /Users/john/Sites/web/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /Users/john/Sites/web/yii/framework/web/CController.php(292): CFilterChain->run()
+#11 /Users/john/Sites/web/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(276): CController->run('')
+#13 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('user/auth')
+#14 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/user/auth
+HTTP_REFERER=http://dance.yii.local:8888/user/install/install
+---
+2012/05/29 11:21:42 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'username'. The SQL statement executed was: INSERT INTO `user` (`lastaction`) VALUES (:yp0).
+in /Users/john/Sites/web/dance_yii/protected/modules/user/models/YumUser.php (84)
+in /Users/john/Sites/web/dance_yii/protected/modules/user/controllers/YumController.php (24)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/05/29 11:21:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'username'. The SQL statement executed was: INSERT INTO `user` (`lastaction`) VALUES (:yp0)' in /Users/john/Sites/web/yii/framework/db/CDbCommand.php:354
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/db/ar/CActiveRecord.php(1014): CDbCommand->execute()
+#1 /Users/john/Sites/web/yii/framework/db/ar/CActiveRecord.php(787): CActiveRecord->insert(Array)
+#2 /Users/john/Sites/web/dance_yii/protected/modules/user/models/YumUser.php(84): CActiveRecord->save(false, Array)
+#3 /Users/john/Sites/web/dance_yii/protected/modules/user/controllers/YumController.php(24): YumUser->setLastAction()
+#4 /Users/john/Sites/web/yii/framework/web/CController.php(307): YumController->beforeAction(Object(CInlineAction))
+#5 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /Users/john/Sites/web/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /Users/john/Sites/web/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /Users/john/Sites/web/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /Users/john/Sites/web/yii/framework/web/CController.php(292): CFilterChain->run()
+#11 /Users/john/Sites/web/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(276): CController->run('')
+#13 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('user/auth')
+#14 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/user/auth
+HTTP_REFERER=http://dance.yii.local:8888/user/install/install
+---
+2012/05/29 11:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "login".' in /Users/john/Sites/web/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('login')
+#1 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/login
+---
+2012/05/29 11:24:46 [warning] [application] Failed to set unsafe attribute "YumRole" of "YumUser".
+in /Users/john/Sites/web/dance_yii/protected/modules/user/controllers/YumUserController.php (239)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/05/29 11:25:32 [warning] [application] Failed to set unsafe attribute "YumRole" of "YumUser".
+in /Users/john/Sites/web/dance_yii/protected/modules/user/controllers/YumUserController.php (239)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/05/29 11:26:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "login".' in /Users/john/Sites/web/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('login')
+#1 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/login
+---
+2012/05/29 11:26:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "login".' in /Users/john/Sites/web/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('login')
+#1 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/login
+---
+2012/05/29 11:26:37 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/john/Sites/web/yii/framework/web/auth/CAccessControlFilter.php:157
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/web/auth/CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(YumWebUser), 'You are not aut...')
+#1 /Users/john/Sites/web/yii/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/john/Sites/web/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /Users/john/Sites/web/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/john/Sites/web/yii/framework/web/CController.php(292): CFilterChain->run()
+#6 /Users/john/Sites/web/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(276): CController->run('index')
+#8 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('competitions/in...')
+#9 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/competitions/index
+HTTP_REFERER=http://dance.yii.local:8888/index.php
+---
+2012/05/29 11:26:43 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/john/Sites/web/yii/framework/web/auth/CAccessControlFilter.php:157
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/web/auth/CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(YumWebUser), 'You are not aut...')
+#1 /Users/john/Sites/web/yii/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/john/Sites/web/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /Users/john/Sites/web/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/john/Sites/web/yii/framework/web/CController.php(292): CFilterChain->run()
+#6 /Users/john/Sites/web/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(276): CController->run('index')
+#8 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('competitions/in...')
+#9 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/competitions/index
+HTTP_REFERER=http://dance.yii.local:8888/judges/index
+---
+2012/05/29 11:26:48 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/john/Sites/web/yii/framework/web/auth/CAccessControlFilter.php:157
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/web/auth/CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(YumWebUser), 'You are not aut...')
+#1 /Users/john/Sites/web/yii/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/john/Sites/web/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /Users/john/Sites/web/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/john/Sites/web/yii/framework/web/CController.php(292): CFilterChain->run()
+#6 /Users/john/Sites/web/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(276): CController->run('globaladmin')
+#8 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('competitors/glo...')
+#9 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/competitors/globaladmin
+HTTP_REFERER=http://dance.yii.local:8888/competitors/index
+---
+2012/05/29 11:26:50 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/john/Sites/web/yii/framework/web/auth/CAccessControlFilter.php:157
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/web/auth/CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(YumWebUser), 'You are not aut...')
+#1 /Users/john/Sites/web/yii/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/john/Sites/web/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /Users/john/Sites/web/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/john/Sites/web/yii/framework/web/CController.php(292): CFilterChain->run()
+#6 /Users/john/Sites/web/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(276): CController->run('admin')
+#8 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('competitors/adm...')
+#9 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/competitors/admin
+HTTP_REFERER=http://dance.yii.local:8888/competitors/globaladmin
+---
+2012/05/29 11:27:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "auth/login".' in /Users/john/Sites/web/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('auth/login')
+#1 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/auth/login
+---
+2012/05/29 11:27:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "login".' in /Users/john/Sites/web/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('login')
+#1 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/login
+---
+2012/05/29 11:27:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "login/auth".' in /Users/john/Sites/web/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('login/auth')
+#1 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/login/auth
+---
+2012/05/29 12:23:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /Users/john/Sites/web/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/web/CController.php(271): CController->missingAction('login')
+#1 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(276): CController->run('login')
+#2 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/login')
+#3 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/login
+HTTP_REFERER=http://dance.yii.local:8888/user/auth
+---
+2012/05/29 12:24:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /Users/john/Sites/web/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/web/CController.php(271): CController->missingAction('login')
+#1 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(276): CController->run('login')
+#2 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/login')
+#3 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/login
+HTTP_REFERER=http://dance.yii.local:8888/user/auth
+---
+2012/05/29 12:24:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /Users/john/Sites/web/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/web/CController.php(271): CController->missingAction('login')
+#1 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(276): CController->run('login')
+#2 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/login')
+#3 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/login
+HTTP_REFERER=http://dance.yii.local:8888/user/auth
+---
+2012/05/29 12:24:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/admin".' in /Users/john/Sites/web/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('user/admin')
+#1 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/user/admin
+---
+2012/05/29 12:24:53 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/john/Sites/web/yii/framework/web/auth/CAccessControlFilter.php:157
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/web/auth/CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(YumWebUser), 'You are not aut...')
+#1 /Users/john/Sites/web/yii/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/john/Sites/web/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /Users/john/Sites/web/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/john/Sites/web/yii/framework/web/CController.php(292): CFilterChain->run()
+#6 /Users/john/Sites/web/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(276): CController->run('admin')
+#8 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('user/user/admin')
+#9 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/user/user/admin
+---
+2012/05/29 13:24:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /Users/john/Sites/web/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/web/CController.php(271): CController->missingAction('login')
+#1 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(276): CController->run('login')
+#2 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/login')
+#3 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/login
+---
+2012/05/29 14:41:16 [warning] [application] Failed to set unsafe attribute "YumUser" of "YumRole".
+in /Users/john/Sites/web/dance_yii/protected/modules/role/controllers/YumRoleController.php (51)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 13:19:15 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_time' in 'order clause'. The SQL statement executed was: SELECT * FROM `events` `t` WHERE competition_id=8 ORDER BY create_time DESC LIMIT 10.
+in /Users/john/Sites/web/dance_yii/protected/views/events/index.php (17)
+in /Users/john/Sites/web/dance_yii/protected/controllers/EventsController.php (385)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 13:19:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_time' in 'order clause'. The SQL statement executed was: SELECT * FROM `events` `t` WHERE competition_id=8 ORDER BY create_time DESC LIMIT 10' in /Users/john/Sites/web/yii/framework/db/CDbCommand.php:528
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/db/CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Users/john/Sites/web/yii/framework/db/ar/CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 /Users/john/Sites/web/yii/framework/db/ar/CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /Users/john/Sites/web/yii/framework/web/CActiveDataProvider.php(150): CActiveRecord->findAll(Object(CDbCriteria))
+#4 /Users/john/Sites/web/yii/framework/web/CDataProvider.php(137): CActiveDataProvider->fetchData()
+#5 /Users/john/Sites/web/yii/framework/zii/widgets/CBaseListView.php(105): CDataProvider->getData()
+#6 /Users/john/Sites/web/yii/framework/zii/widgets/CListView.php(173): CBaseListView->init()
+#7 /Users/john/Sites/web/yii/framework/web/CBaseController.php(148): CListView->init()
+#8 /Users/john/Sites/web/yii/framework/web/CBaseController.php(173): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#9 /Users/john/Sites/web/dance_yii/protected/views/events/index.php(17): CBaseController->widget('zii.widgets.CLi...', Array)
+#10 /Users/john/Sites/web/yii/framework/web/CBaseController.php(127): require('/Users/john/Sit...')
+#11 /Users/john/Sites/web/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Users/john/Sit...', Array, true)
+#12 /Users/john/Sites/web/yii/framework/web/CController.php(870): CBaseController->renderFile('/Users/john/Sit...', Array, true)
+#13 /Users/john/Sites/web/yii/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#14 /Users/john/Sites/web/dance_yii/protected/controllers/EventsController.php(385): CController->render('index', Array)
+#15 /Users/john/Sites/web/yii/framework/web/actions/CInlineAction.php(50): EventsController->actionIndex()
+#16 /Users/john/Sites/web/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#17 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 /Users/john/Sites/web/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#19 /Users/john/Sites/web/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#20 /Users/john/Sites/web/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#21 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#22 /Users/john/Sites/web/yii/framework/web/CController.php(292): CFilterChain->run()
+#23 /Users/john/Sites/web/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(276): CController->run('index')
+#25 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('events/index')
+#26 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#27 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/events/index
+HTTP_REFERER=http://dance.yii.local:8888/competitions/choose?a=8
+---
+2012/06/09 13:21:36 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column '$competition_id' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `events` `t` WHERE COMPETITION_ID=$competition_id.
+in /Users/john/Sites/web/dance_yii/protected/views/events/index.php (17)
+in /Users/john/Sites/web/dance_yii/protected/controllers/EventsController.php (385)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 13:21:36 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column '$competition_id' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `events` `t` WHERE COMPETITION_ID=$competition_id' in /Users/john/Sites/web/yii/framework/db/CDbCommand.php:528
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/db/CDbCommand.php(425): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /Users/john/Sites/web/yii/framework/db/ar/CActiveRecord.php(1536): CDbCommand->queryScalar()
+#2 /Users/john/Sites/web/yii/framework/web/CActiveDataProvider.php(179): CActiveRecord->count(Object(CDbCriteria))
+#3 /Users/john/Sites/web/yii/framework/web/CDataProvider.php(193): CActiveDataProvider->calculateTotalItemCount()
+#4 /Users/john/Sites/web/yii/framework/web/CActiveDataProvider.php(129): CDataProvider->getTotalItemCount()
+#5 /Users/john/Sites/web/yii/framework/web/CDataProvider.php(137): CActiveDataProvider->fetchData()
+#6 /Users/john/Sites/web/yii/framework/zii/widgets/CBaseListView.php(105): CDataProvider->getData()
+#7 /Users/john/Sites/web/yii/framework/zii/widgets/CListView.php(173): CBaseListView->init()
+#8 /Users/john/Sites/web/yii/framework/web/CBaseController.php(148): CListView->init()
+#9 /Users/john/Sites/web/yii/framework/web/CBaseController.php(173): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#10 /Users/john/Sites/web/dance_yii/protected/views/events/index.php(17): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 /Users/john/Sites/web/yii/framework/web/CBaseController.php(127): require('/Users/john/Sit...')
+#12 /Users/john/Sites/web/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Users/john/Sit...', Array, true)
+#13 /Users/john/Sites/web/yii/framework/web/CController.php(870): CBaseController->renderFile('/Users/john/Sit...', Array, true)
+#14 /Users/john/Sites/web/yii/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#15 /Users/john/Sites/web/dance_yii/protected/controllers/EventsController.php(385): CController->render('index', Array)
+#16 /Users/john/Sites/web/yii/framework/web/actions/CInlineAction.php(50): EventsController->actionIndex()
+#17 /Users/john/Sites/web/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#18 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#19 /Users/john/Sites/web/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#20 /Users/john/Sites/web/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#21 /Users/john/Sites/web/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#22 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#23 /Users/john/Sites/web/yii/framework/web/CController.php(292): CFilterChain->run()
+#24 /Users/john/Sites/web/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(276): CController->run('index')
+#26 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('events/index')
+#27 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#28 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/events/index
+HTTP_REFERER=http://dance.yii.local:8888/events/36
+---
+2012/06/09 13:27:14 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 13:28:30 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 13:29:09 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 13:29:41 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 13:32:00 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 13:39:16 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 13:39:34 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 13:39:44 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 13:39:59 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 13:41:08 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 13:41:35 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 13:41:44 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 13:45:08 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 13:46:01 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 13:46:32 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 13:47:01 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 13:48:12 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 13:48:39 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 13:49:08 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 13:49:39 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 13:49:57 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 13:50:22 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 13:50:46 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 13:52:46 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 13:58:45 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 13:58:58 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 13:59:48 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:00:08 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:00:45 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:04:23 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:05:27 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:06:14 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:06:36 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:06:56 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:07:10 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:07:21 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:07:33 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:07:47 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:08:03 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:08:26 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:09:15 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:09:30 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:09:46 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:10:33 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:10:58 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:11:17 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:12:05 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:13:12 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:14:04 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:14:25 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:15:39 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:15:56 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:16:09 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:16:26 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:16:53 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:17:06 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:17:38 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:17:55 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:18:10 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:18:23 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:18:34 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:19:13 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:20:18 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:20:59 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:21:04 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:21:37 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:21:55 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:22:24 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:22:30 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/09 14:22:56 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:05:41 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:06:29 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:07:17 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:08:16 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:09:02 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:10:11 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:10:33 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:11:17 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:11:52 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:12:19 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:13:16 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:14:16 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:14:48 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:15:30 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:15:58 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:17:21 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:17:45 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:20:19 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:20:37 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:21:00 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:21:42 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:22:02 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:22:14 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:22:34 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:22:54 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:23:24 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:24:27 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:25:35 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:25:48 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:26:18 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:26:33 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:26:54 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:27:23 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:27:55 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:28:20 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:28:43 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:29:52 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:31:12 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:31:43 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:32:11 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:32:31 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 02:33:28 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 03:16:15 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 03:16:45 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 03:17:14 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 03:17:47 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 03:18:22 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 03:19:06 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 03:30:22 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 03:30:36 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 03:31:24 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 03:32:19 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 03:33:12 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 03:33:24 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 03:33:42 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 09:47:14 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 09:49:40 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 09:49:56 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 09:51:47 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 09:53:37 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 09:53:57 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 10:06:33 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 10:06:48 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 10:07:24 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 10:07:45 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 10:08:05 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 10:12:11 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 10:14:29 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 10:17:20 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 10:17:55 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 10:18:40 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 10:19:18 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 10:20:53 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 10:21:19 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 10:23:57 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 10:25:00 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 10:25:41 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:09:46 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:10:12 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:12:58 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:13:11 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:13:24 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:13:42 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:13:51 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:14:04 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:14:19 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:14:41 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:15:00 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:15:31 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:15:51 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:16:11 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:16:29 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:16:43 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:17:15 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:17:30 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:17:44 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:17:57 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:18:15 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:18:28 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:18:40 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:18:53 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:19:05 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:19:17 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:19:31 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:19:58 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:20:13 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 11:20:26 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 12:24:45 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 12:49:54 [error] [php] Invalid argument supplied for foreach() (/Users/john/Sites/web/dance_yii/protected/controllers/RoundsController.php:869)
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 /Users/john/Sites/web/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#2 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(134): RoundsController->runAction()
+#3 /Users/john/Sites/web/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#4 /Users/john/Sites/web/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#5 /Users/john/Sites/web/yii/framework/web/filters/CInlineFilter.php(59): RoundsController->filterAccessControl()
+#6 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#7 /Users/john/Sites/web/yii/framework/web/CController.php(292): CFilterChain->run()
+#8 /Users/john/Sites/web/yii/framework/web/CController.php(266): RoundsController->runActionWithFilters()
+#9 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(276): RoundsController->run()
+#10 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#11 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /Users/john/Sites/web/dance_yii/index.php(13): CWebApplication->run()
+REQUEST_URI=/rounds/judge/76
+in /Users/john/Sites/web/dance_yii/protected/controllers/RoundsController.php (869)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 13:15:56 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 13:48:14 [error] [php] Invalid argument supplied for foreach() (/Users/john/Sites/web/dance_yii/protected/controllers/RoundsController.php:872)
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 /Users/john/Sites/web/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#2 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(134): RoundsController->runAction()
+#3 /Users/john/Sites/web/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#4 /Users/john/Sites/web/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#5 /Users/john/Sites/web/yii/framework/web/filters/CInlineFilter.php(59): RoundsController->filterAccessControl()
+#6 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#7 /Users/john/Sites/web/yii/framework/web/CController.php(292): CFilterChain->run()
+#8 /Users/john/Sites/web/yii/framework/web/CController.php(266): RoundsController->runActionWithFilters()
+#9 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(276): RoundsController->run()
+#10 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#11 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /Users/john/Sites/web/dance_yii/index.php(13): CWebApplication->run()
+REQUEST_URI=/rounds/judge/80
+in /Users/john/Sites/web/dance_yii/protected/controllers/RoundsController.php (872)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 13:54:35 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 13:59:48 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 14:38:09 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 14:40:51 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 14:41:10 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 14:43:23 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 15:15:59 [error] [php] Invalid argument supplied for foreach() (/Users/john/Sites/web/dance_yii/protected/controllers/RoundsController.php:872)
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 /Users/john/Sites/web/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#2 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(134): RoundsController->runAction()
+#3 /Users/john/Sites/web/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#4 /Users/john/Sites/web/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#5 /Users/john/Sites/web/yii/framework/web/filters/CInlineFilter.php(59): RoundsController->filterAccessControl()
+#6 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#7 /Users/john/Sites/web/yii/framework/web/CController.php(292): CFilterChain->run()
+#8 /Users/john/Sites/web/yii/framework/web/CController.php(266): RoundsController->runActionWithFilters()
+#9 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(276): RoundsController->run()
+#10 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#11 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /Users/john/Sites/web/dance_yii/index.php(13): CWebApplication->run()
+REQUEST_URI=/rounds/judge/87
+in /Users/john/Sites/web/dance_yii/protected/controllers/RoundsController.php (872)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 15:39:53 [error] [php] Invalid argument supplied for foreach() (/Users/john/Sites/web/dance_yii/protected/controllers/RoundsController.php:872)
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 /Users/john/Sites/web/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#2 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(134): RoundsController->runAction()
+#3 /Users/john/Sites/web/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#4 /Users/john/Sites/web/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#5 /Users/john/Sites/web/yii/framework/web/filters/CInlineFilter.php(59): RoundsController->filterAccessControl()
+#6 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#7 /Users/john/Sites/web/yii/framework/web/CController.php(292): CFilterChain->run()
+#8 /Users/john/Sites/web/yii/framework/web/CController.php(266): RoundsController->runActionWithFilters()
+#9 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(276): RoundsController->run()
+#10 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#11 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /Users/john/Sites/web/dance_yii/index.php(13): CWebApplication->run()
+REQUEST_URI=/rounds/judge/91
+in /Users/john/Sites/web/dance_yii/protected/controllers/RoundsController.php (872)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 16:30:42 [error] [php] Invalid argument supplied for foreach() (/Users/john/Sites/web/dance_yii/protected/controllers/RoundsController.php:1093)
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#1 /Users/john/Sites/web/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#2 /Users/john/Sites/web/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(134): RoundsController->runAction()
+#4 /Users/john/Sites/web/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /Users/john/Sites/web/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#6 /Users/john/Sites/web/yii/framework/web/filters/CInlineFilter.php(59): RoundsController->filterAccessControl()
+#7 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#8 /Users/john/Sites/web/yii/framework/web/CController.php(292): CFilterChain->run()
+#9 /Users/john/Sites/web/yii/framework/web/CController.php(266): RoundsController->runActionWithFilters()
+#10 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(276): RoundsController->run()
+#11 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#12 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /Users/john/Sites/web/dance_yii/index.php(13): CWebApplication->run()
+REQUEST_URI=/rounds/judge/96
+in /Users/john/Sites/web/dance_yii/protected/controllers/RoundsController.php (1093)
+in /Users/john/Sites/web/dance_yii/protected/controllers/RoundsController.php (454)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 16:30:47 [error] [php] Invalid argument supplied for foreach() (/Users/john/Sites/web/dance_yii/protected/controllers/RoundsController.php:1093)
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#1 /Users/john/Sites/web/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#2 /Users/john/Sites/web/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(134): RoundsController->runAction()
+#4 /Users/john/Sites/web/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /Users/john/Sites/web/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#6 /Users/john/Sites/web/yii/framework/web/filters/CInlineFilter.php(59): RoundsController->filterAccessControl()
+#7 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#8 /Users/john/Sites/web/yii/framework/web/CController.php(292): CFilterChain->run()
+#9 /Users/john/Sites/web/yii/framework/web/CController.php(266): RoundsController->runActionWithFilters()
+#10 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(276): RoundsController->run()
+#11 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#12 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /Users/john/Sites/web/dance_yii/index.php(13): CWebApplication->run()
+REQUEST_URI=/rounds/judge/96
+in /Users/john/Sites/web/dance_yii/protected/controllers/RoundsController.php (1093)
+in /Users/john/Sites/web/dance_yii/protected/controllers/RoundsController.php (454)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 17:55:17 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 17:55:30 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 17:56:09 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (190)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 17:57:07 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (69)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 17:58:04 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 17:58:29 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 17:58:49 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 17:59:01 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 18:02:15 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/10 18:02:31 [warning] [application] Failed to set unsafe attribute "ADDRESS" of "Competitors".
+in /Users/john/Sites/web/dance_yii/protected/controllers/CompetitorsController.php (149)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/18 22:50:35 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT COUNT(*) FROM `events` `t` WHERE COMPETITION_ID=.
+in /Users/john/Sites/web/dance_yii/protected/views/events/index.php (17)
+in /Users/john/Sites/web/dance_yii/protected/controllers/EventsController.php (385)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/18 22:50:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT COUNT(*) FROM `events` `t` WHERE COMPETITION_ID=' in /Users/john/Sites/web/yii/framework/db/CDbCommand.php:528
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/db/CDbCommand.php(425): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /Users/john/Sites/web/yii/framework/db/ar/CActiveRecord.php(1536): CDbCommand->queryScalar()
+#2 /Users/john/Sites/web/yii/framework/web/CActiveDataProvider.php(179): CActiveRecord->count(Object(CDbCriteria))
+#3 /Users/john/Sites/web/yii/framework/web/CDataProvider.php(193): CActiveDataProvider->calculateTotalItemCount()
+#4 /Users/john/Sites/web/yii/framework/web/CActiveDataProvider.php(129): CDataProvider->getTotalItemCount()
+#5 /Users/john/Sites/web/yii/framework/web/CDataProvider.php(137): CActiveDataProvider->fetchData()
+#6 /Users/john/Sites/web/yii/framework/zii/widgets/CBaseListView.php(105): CDataProvider->getData()
+#7 /Users/john/Sites/web/yii/framework/zii/widgets/CListView.php(173): CBaseListView->init()
+#8 /Users/john/Sites/web/yii/framework/web/CBaseController.php(148): CListView->init()
+#9 /Users/john/Sites/web/yii/framework/web/CBaseController.php(173): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#10 /Users/john/Sites/web/dance_yii/protected/views/events/index.php(17): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 /Users/john/Sites/web/yii/framework/web/CBaseController.php(127): require('/Users/john/Sit...')
+#12 /Users/john/Sites/web/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Users/john/Sit...', Array, true)
+#13 /Users/john/Sites/web/yii/framework/web/CController.php(870): CBaseController->renderFile('/Users/john/Sit...', Array, true)
+#14 /Users/john/Sites/web/yii/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#15 /Users/john/Sites/web/dance_yii/protected/controllers/EventsController.php(385): CController->render('index', Array)
+#16 /Users/john/Sites/web/yii/framework/web/actions/CInlineAction.php(50): EventsController->actionIndex()
+#17 /Users/john/Sites/web/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#18 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#19 /Users/john/Sites/web/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#20 /Users/john/Sites/web/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#21 /Users/john/Sites/web/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#22 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#23 /Users/john/Sites/web/yii/framework/web/CController.php(292): CFilterChain->run()
+#24 /Users/john/Sites/web/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(276): CController->run('index')
+#26 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('events/index')
+#27 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#28 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/events/index
+HTTP_REFERER=http://dance.yii.local:8888/index.php
+---
+2012/06/18 22:50:50 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT COUNT(*) FROM `events` `t` WHERE COMPETITION_ID=.
+in /Users/john/Sites/web/dance_yii/protected/views/events/index.php (17)
+in /Users/john/Sites/web/dance_yii/protected/controllers/EventsController.php (385)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/18 22:50:50 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT COUNT(*) FROM `events` `t` WHERE COMPETITION_ID=' in /Users/john/Sites/web/yii/framework/db/CDbCommand.php:528
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/db/CDbCommand.php(425): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /Users/john/Sites/web/yii/framework/db/ar/CActiveRecord.php(1536): CDbCommand->queryScalar()
+#2 /Users/john/Sites/web/yii/framework/web/CActiveDataProvider.php(179): CActiveRecord->count(Object(CDbCriteria))
+#3 /Users/john/Sites/web/yii/framework/web/CDataProvider.php(193): CActiveDataProvider->calculateTotalItemCount()
+#4 /Users/john/Sites/web/yii/framework/web/CActiveDataProvider.php(129): CDataProvider->getTotalItemCount()
+#5 /Users/john/Sites/web/yii/framework/web/CDataProvider.php(137): CActiveDataProvider->fetchData()
+#6 /Users/john/Sites/web/yii/framework/zii/widgets/CBaseListView.php(105): CDataProvider->getData()
+#7 /Users/john/Sites/web/yii/framework/zii/widgets/CListView.php(173): CBaseListView->init()
+#8 /Users/john/Sites/web/yii/framework/web/CBaseController.php(148): CListView->init()
+#9 /Users/john/Sites/web/yii/framework/web/CBaseController.php(173): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#10 /Users/john/Sites/web/dance_yii/protected/views/events/index.php(17): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 /Users/john/Sites/web/yii/framework/web/CBaseController.php(127): require('/Users/john/Sit...')
+#12 /Users/john/Sites/web/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Users/john/Sit...', Array, true)
+#13 /Users/john/Sites/web/yii/framework/web/CController.php(870): CBaseController->renderFile('/Users/john/Sit...', Array, true)
+#14 /Users/john/Sites/web/yii/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#15 /Users/john/Sites/web/dance_yii/protected/controllers/EventsController.php(385): CController->render('index', Array)
+#16 /Users/john/Sites/web/yii/framework/web/actions/CInlineAction.php(50): EventsController->actionIndex()
+#17 /Users/john/Sites/web/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#18 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#19 /Users/john/Sites/web/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#20 /Users/john/Sites/web/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#21 /Users/john/Sites/web/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#22 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#23 /Users/john/Sites/web/yii/framework/web/CController.php(292): CFilterChain->run()
+#24 /Users/john/Sites/web/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(276): CController->run('index')
+#26 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('events/index')
+#27 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#28 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/events/index
+HTTP_REFERER=http://dance.yii.local:8888/index.php
+---
+2012/06/18 22:51:45 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT COUNT(*) FROM `events` `t` WHERE COMPETITION_ID=.
+in /Users/john/Sites/web/dance_yii/protected/views/events/index.php (17)
+in /Users/john/Sites/web/dance_yii/protected/controllers/EventsController.php (385)
+in /Users/john/Sites/web/dance_yii/index.php (13)
+2012/06/18 22:51:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT COUNT(*) FROM `events` `t` WHERE COMPETITION_ID=' in /Users/john/Sites/web/yii/framework/db/CDbCommand.php:528
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/db/CDbCommand.php(425): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /Users/john/Sites/web/yii/framework/db/ar/CActiveRecord.php(1536): CDbCommand->queryScalar()
+#2 /Users/john/Sites/web/yii/framework/web/CActiveDataProvider.php(179): CActiveRecord->count(Object(CDbCriteria))
+#3 /Users/john/Sites/web/yii/framework/web/CDataProvider.php(193): CActiveDataProvider->calculateTotalItemCount()
+#4 /Users/john/Sites/web/yii/framework/web/CActiveDataProvider.php(129): CDataProvider->getTotalItemCount()
+#5 /Users/john/Sites/web/yii/framework/web/CDataProvider.php(137): CActiveDataProvider->fetchData()
+#6 /Users/john/Sites/web/yii/framework/zii/widgets/CBaseListView.php(105): CDataProvider->getData()
+#7 /Users/john/Sites/web/yii/framework/zii/widgets/CListView.php(173): CBaseListView->init()
+#8 /Users/john/Sites/web/yii/framework/web/CBaseController.php(148): CListView->init()
+#9 /Users/john/Sites/web/yii/framework/web/CBaseController.php(173): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#10 /Users/john/Sites/web/dance_yii/protected/views/events/index.php(17): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 /Users/john/Sites/web/yii/framework/web/CBaseController.php(127): require('/Users/john/Sit...')
+#12 /Users/john/Sites/web/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Users/john/Sit...', Array, true)
+#13 /Users/john/Sites/web/yii/framework/web/CController.php(870): CBaseController->renderFile('/Users/john/Sit...', Array, true)
+#14 /Users/john/Sites/web/yii/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#15 /Users/john/Sites/web/dance_yii/protected/controllers/EventsController.php(385): CController->render('index', Array)
+#16 /Users/john/Sites/web/yii/framework/web/actions/CInlineAction.php(50): EventsController->actionIndex()
+#17 /Users/john/Sites/web/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#18 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#19 /Users/john/Sites/web/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#20 /Users/john/Sites/web/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#21 /Users/john/Sites/web/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#22 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#23 /Users/john/Sites/web/yii/framework/web/CController.php(292): CFilterChain->run()
+#24 /Users/john/Sites/web/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(276): CController->run('index')
+#26 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('events/index')
+#27 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#28 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/events/index
+HTTP_REFERER=http://dance.yii.local:8888/competitions/8
+---
+2012/06/18 22:57:01 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/john/Sites/web/yii/framework/web/auth/CAccessControlFilter.php:157
+Stack trace:
+#0 /Users/john/Sites/web/yii/framework/web/auth/CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(YumWebUser), 'You are not aut...')
+#1 /Users/john/Sites/web/yii/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/john/Sites/web/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /Users/john/Sites/web/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/john/Sites/web/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/john/Sites/web/yii/framework/web/CController.php(292): CFilterChain->run()
+#6 /Users/john/Sites/web/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(276): CController->run('review')
+#8 /Users/john/Sites/web/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('events/review')
+#9 /Users/john/Sites/web/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Users/john/Sites/web/dance_yii/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/events/review/49
+HTTP_REFERER=http://dance.yii.local:8888/events/49
+---
